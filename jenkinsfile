@@ -9,7 +9,7 @@ pipeline {
                     // Ejecutar las pruebas con unittest usando xmlrunner y generar los resultados en formato XML
                     sh 'python -m unittest test/test_contrato.py'  // Esto debería generar result.xml
                 }
-            }
+         }
         }
 
         stage('Resultados') {
